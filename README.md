@@ -1,7 +1,7 @@
 Fatigue Life Prediction Using Machine Learning
 
 Overview : 
-This project predicts the fatigue life of steel using machine learning. Fatigue life determines how long a material withstands repeated stress before failure. Fatigue strength is the maximum stress a material can withstand at a given number of cycles without failing.
+This project predicts the fatigue strength of steel samples using machine learning. Fatigue strength is the maximum stress a material can withstand at a given number of cycles without failing.
 
 The model is built using the XGBoost regression algorithm, leveraging material property data for predictions.
 
