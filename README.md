@@ -10,8 +10,8 @@ Features
 -Comprehensive Pipeline: Data preprocessing, feature engineering, and performance evaluation.
 -Performance Metrics: Includes R-squared (R²) and Mean Squared Error (MSE).
 
-Repository Contents
--`MMD 301 -2.ipynb`: Jupyter Notebook with code for data processing, model training, and evaluation.
+Repository Contents :
+-`MMD 301 -2.ipynb`: Jupyter Notebook with code for data processing, EDA, model training, and evaluation.
 -`Fatigue_Dataset_for_Steel.csv`: Dataset containing material properties and fatigue strength values.
 
 Requirements :
@@ -27,7 +27,7 @@ Model Performance :
   - R-squared (R²): Measures the proportion of variance explained by the model.
   - Mean Squared Error (MSE): Indicates prediction accuracy.
 
-Contribution Guidelines
+Contribution Guidelines : 
 Contributions are welcome! Fork this repository, make your improvements, and submit a pull request.
 
 
