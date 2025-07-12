@@ -1,34 +1,54 @@
-Fatigue Life Prediction Using Machine Learning
+# 🔧 Fatigue Life Prediction Using Machine Learning
 
-Overview : 
-This project predicts the fatigue strength of steel samples using machine learning. Fatigue strength is the maximum stress a material can withstand at a given number of cycles without failing.
+This project predicts the **fatigue strength of steel samples** using machine learning. Fatigue strength refers to the maximum stress a material can endure for a given number of cycles without failing. The model uses **XGBoost regression** on material property data to make accurate predictions.
 
-The model is built using the XGBoost regression algorithm, leveraging material property data for predictions.
+---
 
-Features
--XGBoost Model: Efficient and accurate fatigue strength predictions.
--Comprehensive Pipeline: Data preprocessing, feature engineering, and performance evaluation.
--Performance Metrics: Includes R-squared (R²) and Mean Squared Error (MSE).
+## 📁 Repository Contents
 
-Repository Contents :
--`MMD 301 -2.ipynb`: Jupyter Notebook with code for data processing, EDA, model training, and evaluation.
--`Fatigue_Dataset_for_Steel.csv`: Dataset containing material properties and fatigue strength values.
+- `MMD 301 -2.ipynb` — Jupyter Notebook with full code (EDA, preprocessing, modeling, evaluation)
+- `Fatigue_Dataset_for_Steel.csv` — Dataset of material properties and fatigue strength
 
-Requirements :
+---
+
+## ⚙️ Features
+
+- **XGBoost Regression Model**: Fast and high-performance predictions
+- **Complete ML Pipeline**: Includes preprocessing, feature engineering, training, and testing
+- **Performance Metrics**:
+  - R-squared (R²)
+  - Mean Squared Error (MSE)
+
+---
+
+## 📊 Dataset Overview
+
+- **Inputs**: Chemical composition, hardness, tensile strength, and other material features
+- **Target**: Fatigue Strength (in MPa)
+
+---
+
+## 🛠 Requirements
+
 - Python 3.11
-- Key Libraries: `xgboost`, `pandas`, `numpy`, `matplotlib`, `scikit-learn`
+- Libraries: `xgboost`, `pandas`, `numpy`, `matplotlib`, `scikit-learn`
 
-Dataset Overview :
-- Material Properties: Includes features such as chemical composition, hardness, and tensile strength.
-- Target Variable: Fatigue strength (MPa).
+---
 
-Model Performance : 
-- Evaluation Metrics :
-  - R-squared (R²): Measures the proportion of variance explained by the model.
-  - Mean Squared Error (MSE): Indicates prediction accuracy.
+## 📈 Model Evaluation
 
-Contribution Guidelines : 
-Contributions are welcome! Fork this repository, make your improvements, and submit a pull request.
+- **R-squared (R²)**: Measures how well the model explains the variance
+- **Mean Squared Error (MSE)**: Measures prediction error
 
+---
 
+## 🤝 Contribution
 
+Contributions are welcome!  
+Feel free to fork the repo, improve it, and submit a pull request.
+
+---
+
+## 📌 Note
+
+This is a portfolio project built for learning and demonstration purposes.
